@@ -1,0 +1,6 @@
+[submodule "modules/ui-story"]
+	path = modules/ui-story
+	url = git@github.com:ferykurniawan17/ui-story.git
+[submodule "packages/ui-story"]
+	path = packages/ui-story
+	url = git@github.com:ferykurniawan17/ui-story.git
