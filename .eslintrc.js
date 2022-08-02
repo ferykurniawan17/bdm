@@ -24,7 +24,7 @@ module.exports = {
   'rules': {
     'indent': [
       'error',
-      2
+      2,
     ],
     'linebreak-style': [
       'error',
@@ -39,6 +39,12 @@ module.exports = {
       'always'
     ],
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error']
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'no-debugger': 'error',
+    'no-console': 'error',
+    'no-empty': 'error',
+    'no-label-var': 'error',
+    'no-magic-numbers': 1,
+    'no-unused-labels': 'error',
   }
 };
