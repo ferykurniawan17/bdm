@@ -1,11 +1,13 @@
 import React from 'react';
-import { Button } from '../module/ui-story/components/Button';
+import Button from '@ui-story/components/Button';
 
-const Home = () => (
-  <div>
-    <p>Home</p>
-    <Button label='Button' primary />
-  </div>
-)
+const Home = () => {
+  return (
+    <div>
+      <p>Home</p>
+      <Button label='Button' primary />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
